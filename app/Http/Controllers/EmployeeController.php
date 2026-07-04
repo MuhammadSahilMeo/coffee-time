@@ -68,7 +68,7 @@ class EmployeeController extends Controller
 
         // Create a new employee record
         $employee = Employee::create($validated);
-
+ 
         // Return success response
         return response()->json([
             'message' => 'Employee created successfully.',
