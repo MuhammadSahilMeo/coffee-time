@@ -87,7 +87,7 @@ class EmployeeController extends Controller
      */
     public function show(Employee $id)
     {
-        // Return the requested employee
+        
         return response()->json([
             'message' => 'Employee fetched successfully.',
             'data' => $id,
