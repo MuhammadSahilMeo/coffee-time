@@ -22,3 +22,4 @@ Route::get("/contact", function () {
 use App\Http\Controllers\EmployeeController;
 
 Route::post('/create-employee', [EmployeeController::class, 'store']);
+Route::get('/employee', [EmployeeController::class, 'index']);
